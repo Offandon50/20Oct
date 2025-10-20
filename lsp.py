@@ -10,7 +10,7 @@ class Vehiculo:
     def frenar(self):
         print(f"El vehículo frenó en {self.frenar_secs} segundos")
 
-
+# Clases hijas
 class Bicicleta(Vehiculo):
     def __init__ (self):
         self.acelerar_secs = 10
@@ -27,6 +27,7 @@ class Moto(Vehiculo):
         self.acelerar_secs = 3
         self.frenar_secs = 7    
 
+# Las clases hijas pueden sustituir a la clase base en sus métodos
 bici = Bicicleta()
 coche = Coche()
 moto = Moto()
