@@ -33,7 +33,6 @@ class SistemaDeNotificaciones:
 
 if __name__ == "__main__":
     # Objetos para cada implementación
-    email_notif = Email()
     push_notif = Push()
     sms_notif = SMS()
 
